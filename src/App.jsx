@@ -2,8 +2,8 @@
 import './App.css'
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
-import Landing from "./components/Landing";
-import Results from "./components/Results";
+// import Landing from "./components/Landing";
+// import Results from "./components/Results";
 
 function App() {
   return (
@@ -11,8 +11,8 @@ function App() {
       <Nav />
 
 
-      
-      <footer />
+
+      <Footer />
     </>
   )
 }
