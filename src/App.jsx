@@ -1,10 +1,10 @@
 // import { useState } from 'react'
-import './App.css'
-import Nav from "./components/Nav";
-import Footer from "./components/Footer";
-import Landing from "./components/Landing";
-import Results from "./components/Results";
 import { Routes, Route } from "react-router-dom"
+import Nav from "./components/Nav"
+import Footer from "./components/Footer"
+import Landing from "./components/Landing"
+import Results from "./components/Results"
+import './App.css'
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <Nav />
       <Routes>
         <Route path="/" element={<Landing />}/>
-        <Route path="/forcast" element={<Results />}/>
+        <Route path="/results" element={<Results />}/>
       </Routes>
       <Footer />
     </>
