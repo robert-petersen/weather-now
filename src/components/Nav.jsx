@@ -3,11 +3,11 @@ import { Link } from "react-router-dom"
 // import {  } from "react-icons"
 import Search from "./Search"
 
-const Nav = () => {
+const Nav = ({ setResults }) => {
   return (
     <nav>
       <h1><Link>WeatherNow</Link></h1>
-      <Search />
+      <Search setResults={setResults}/>
     </nav>
   )
 }
