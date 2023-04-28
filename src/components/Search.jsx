@@ -4,7 +4,7 @@ import { CgSearch, CgSearchLoading } from "react-icons/cg";
 import axios from "axios";
 
 const Search = ({ setResults }) => {
-  const apiKey = import.meta.env.VITE_API_KEY;
+  const apiKey = import.meta.env.VITE_API_KEY; //Get api key from .env file
   const initialValues = {
     city: "",
     region: "",
@@ -26,7 +26,7 @@ const Search = ({ setResults }) => {
         navigate("/results");
       })
       .catch((err) => {
-        console.log("error:", err);
+        console.log("error:", err); //delete this
         setFormData({...formData, isFetching: false, error: `Couldn't find any results. Make sure you entered things correctly.`});
     });
   }
@@ -35,6 +35,7 @@ const Search = ({ setResults }) => {
       setFormData({...formData, city: evt.target.value});
   }
 
+  // Must be a better way to make this dry
   const onChangeRegion = (evt) => {
       setFormData({...formData, region: evt.target.value});
   }
