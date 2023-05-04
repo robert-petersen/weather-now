@@ -1,6 +1,6 @@
 # Weather Now
 
-Weather Now searches and displays forcast data based on your location search. This application uses [weather api](https://www.weatherapi.com/). View the deployed site [here](https://weather-app-swart-sigma.vercel.app/).
+Weather Now searches and displays forcast data based on your location search. It provides the user with a convenient summary of the current weather details as well as a detailed forcast summary with graph visuals. This application uses [weather api](https://www.weatherapi.com/). <!-- View the deployed site [here](https://weather-app-swart-sigma.vercel.app/). -->
 
 <!-- --------------------------------------------------------------------------------------------To help see sections----------------- -->
 <br />
