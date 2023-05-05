@@ -1,0 +1,10 @@
+// bring in variables for use
+@use "./sass/abstracts/" as *;
+
+// bring in reset
+@use "./sass/abstracts/reset";
+
+// Default styles
+body {
+  font-family: $defaultFont;
+}
