@@ -1,0 +1,6 @@
+@use "./index" as *;
+
+// Default styles
+body {
+  font-family: $defaultFont;
+}

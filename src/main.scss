@@ -1,10 +1,6 @@
-// bring in variables for use
-@use "./sass/abstracts/" as *;
-
-// bring in reset
+// bring in reset and default styles
 @use "./sass/abstracts/reset";
+@use "./sass/abstracts/defaults";
 
-// Default styles
-body {
-  font-family: $defaultFont;
-}
+@use "./sass/components/nav";
+@use "./sass/components/search";

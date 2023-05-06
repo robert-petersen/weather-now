@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,600;0,700;0,800;0,900;1,200;1,400;1,600;1,700;1,800;1,900&display=swap");
 /* CSS reset until line 50 */
 /* Box sizing rules */
 *,
@@ -49,6 +49,53 @@ body {
 }
 body {
   font-family: "Raleway", sans-serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: blue;
+}
+nav h1 .homeLink {
+  color: white;
+  font-synthesis: none;
+  font-weight: 800;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+nav h1 .homeLink .icon {
+  font-size: 3rem;
+  margin: 0 0.5rem;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+.search input {
+  height: 29px;
+  border-radius: 10px;
+  margin-right: 0.25rem;
+}
+.search button {
+  background-color: black;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
+.search button:hover {
+  color: black;
+  background-color: white;
+}
+.search button .icon {
+  font-size: 1rem;
 }
 
 /*# sourceMappingURL=index.css.map */
