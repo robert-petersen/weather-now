@@ -55,7 +55,7 @@ const Search = ({ setResults }) => {
   }, [formData.city]);
 
   return (
-    <form onSubmit={onSubmit}>
+    <form onSubmit={onSubmit} className='search'>
       <input 
         name="city"
         type="text"
@@ -71,7 +71,7 @@ const Search = ({ setResults }) => {
         onChange={onChangeRegion}
       />
       <button type="submit" disabled={formData.disabled}>
-        {formData.isFetching ? <CgSearchLoading /> : <CgSearch />}
+        {formData.isFetching ? <CgSearchLoading className='icon'/> : <CgSearch className='icon'/>}
       </button>
     </form>
   )

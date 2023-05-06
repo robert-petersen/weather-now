@@ -6,7 +6,11 @@ import Search from "./Search"
 const Nav = ({ setResults }) => {
   return (
     <nav>
-      <h1><Link><WiCloudy /> WeatherNow</Link></h1>
+      <h1>
+        <Link className="homeLink">
+          <WiCloudy className="icon"/> WeatherNow
+        </Link>
+      </h1>
       <Search setResults={setResults}/>
     </nav>
   )

@@ -1,0 +1,33 @@
+@use "../abstracts/" as *;
+
+.search {
+  display: flex;
+  align-items: center;
+
+  input {
+    height: 29px;
+    border-radius: 10px;
+    margin-right: .25rem;
+  }
+
+  button {
+    background-color: black;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+
+    &:hover {
+      color: black;
+      background-color: white;
+    }
+
+    .icon {
+      font-size: 1rem;
+    }
+  }
+}
