@@ -1,0 +1,29 @@
+@use "../abstracts/" as *;
+
+.landing {
+  width: 100%;
+  height: 100vh;
+  background-color: dodgerblue;
+
+  .main_content {
+    height: 33vh;
+    background-color: blue;
+    @include centered;
+    flex-direction: column;
+    color: white;
+
+    h1 {
+      font-size: 4rem;
+      margin-bottom: 2vh;
+    }
+
+    p {
+      font-size: 1.5rem;
+      margin-bottom: 1vh;
+    }
+  }
+
+  .carousel {
+    
+  }
+}

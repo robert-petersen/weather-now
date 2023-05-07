@@ -1,0 +1,10 @@
+@mixin centered() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin centeredHorizontal() {
+  display: flex;
+  align-items: center;
+}
