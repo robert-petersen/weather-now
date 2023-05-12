@@ -12,21 +12,21 @@ const Landing = ({ setResults }) => {
       </section>
       <section className="carousel">
         <article 
-          className={active === 1 ? "current_active" : "current"}
+          className={active === 1 ? "active" : ""}
           onClick={() => setActive(1)}
           >
           <h1>Current Weather</h1>
           <p>Get a summary of the most relevant current weather information for the city you search!</p>
         </article>
         <article 
-          className={active === 2 ? "forcasts_active" : "forcasts"}
+          className={active === 2 ? "active" : ""}
           onClick={() => setActive(2)}
           >
           <h1>Forcast Info</h1>
           <p>Recive a detailed forcast with visuals for the current day and next two days for any city!</p>
         </article>
         <article 
-          className={active === 3 ? "astronomy_active" : "astronomy"}
+          className={active === 3 ? "active" : ""}
           onClick={() => setActive(3)}
           >
           <h1>Astronomy Info</h1>

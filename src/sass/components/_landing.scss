@@ -3,7 +3,7 @@
 .landing {
   width: 100%;
   height: 100vh;
-  background-color: dodgerblue;
+  background-color: rgb(35, 36, 37);
 
   .main_content {
     height: 33vh;
@@ -25,5 +25,40 @@
 
   .carousel {
     @include centered;
+    height: 67vh;
+
+    article{
+      border: 1px solid black;
+      border-radius: 15px;
+      width: 5rem;
+      height: 40vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+
+      h1{
+        writing-mode: vertical-lr;
+        text-orientation: sideways-right;
+        text-align: center;
+        // border: 1px solid red;
+        order: 2;
+      }
+
+      p{
+        display: none;
+        opacity: 0;
+        transition: ease-in-out 1s;
+      }
+    }
+
+    .active{
+      width: 40vw;
+
+      p{
+        display: block;
+        opacity: 1;
+      }
+    }
   }
 }
