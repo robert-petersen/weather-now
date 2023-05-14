@@ -1,9 +1,23 @@
 @use "../abstracts/" as *;
 
+@keyframes cardGrowth {
+  0% {
+    font-size: 0rem;
+  }
+  80% {
+    font-size: 1.2rem;
+    opacity: 1;
+  }
+  100% {
+    font-size: 1.2rem;
+    opacity: 1;
+  }
+}
+
 .landing {
   width: 100%;
   height: 100vh;
-  background-color: rgb(35, 36, 37);
+  background-color: rgb(219, 220, 221);
 
   .main_content {
     height: 33vh;
@@ -28,36 +42,46 @@
     height: 67vh;
 
     article{
-      border: 1px solid black;
+      box-shadow: 1px 1px lightgrey;
       border-radius: 15px;
       width: 5rem;
       height: 40vh;
       display: flex;
       align-items: center;
-      justify-content: center;
-
+      justify-content: flex-end;
+      margin: .5rem;
+      background-color: white;
+      transition: ease-in-out 1s;
 
       h1{
         writing-mode: vertical-lr;
         text-orientation: sideways-right;
         text-align: center;
+        cursor: pointer;
         // border: 1px solid red;
-        order: 2;
+        width: 100%;
+        height: 100%;
+        padding: 1rem;
       }
-
       p{
+        height: 70%;
+        padding: 1rem;
         display: none;
-        opacity: 0;
-        transition: ease-in-out 1s;
+        overflow: hidden;
       }
     }
 
     .active{
       width: 40vw;
+      justify-content: flex-end;
+      transition: ease 1s;
+
+      h1{
+        width: 5rem;
+      }
 
       p{
         display: block;
-        opacity: 1;
       }
     }
   }
