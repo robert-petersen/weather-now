@@ -1,0 +1,52 @@
+@use "../abstracts/" as *;
+
+footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: white;
+  background-color: rgb(26, 24, 24);
+
+  section {
+    @include centered;
+    justify-content: space-around;
+
+    article {
+      margin: 2rem;
+    }
+
+    .contact {
+      width: 50%;
+
+      a {
+          color: lightgray;
+    
+          &:hover {
+            color: dodgerblue;
+          }
+      }
+    }
+
+    .links {
+      width: 30%;
+
+      li a{
+        text-decoration: none;
+        color: white;
+
+        &:hover {
+          color: dodgerblue;
+        }
+      }
+    }
+  }
+
+  small {
+    @include centered;
+    margin: .5rem;
+
+    .copyIcon {
+      margin-right: .3rem;
+    }
+  }
+}
