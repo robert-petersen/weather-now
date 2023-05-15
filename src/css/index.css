@@ -99,19 +99,6 @@ nav h1 .homeLink .icon {
   font-size: 1rem;
 }
 
-@keyframes cardGrowth {
-  0% {
-    font-size: 0rem;
-  }
-  80% {
-    font-size: 1.2rem;
-    opacity: 1;
-  }
-  100% {
-    font-size: 1.2rem;
-    opacity: 1;
-  }
-}
 .landing {
   width: 100%;
   height: 100vh;
@@ -177,6 +164,51 @@ nav h1 .homeLink .icon {
 }
 .landing .carousel .active p {
   display: block;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: white;
+  background-color: rgb(26, 24, 24);
+}
+footer section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+footer section article {
+  margin: 2rem;
+}
+footer section .contact {
+  width: 50%;
+}
+footer section .contact a {
+  color: lightgray;
+}
+footer section .contact a:hover {
+  color: dodgerblue;
+}
+footer section .links {
+  width: 30%;
+}
+footer section .links li a {
+  text-decoration: none;
+  color: white;
+}
+footer section .links li a:hover {
+  color: dodgerblue;
+}
+footer small {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem;
+}
+footer small .copyIcon {
+  margin-right: 0.3rem;
 }
 
 /*# sourceMappingURL=index.css.map */
