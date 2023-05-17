@@ -28,6 +28,8 @@ A CSS preprocesser that includes great features like variables, nesting, mixins,
 
 React Router enables "client side routing". Client side routing allows your app to update the URL from a link click without making another request for another document from the server. This enables faster user experiences because the browser doesn't need to request an entirely new document or re-evaluate CSS and JavaScript assets for the next page. React router docs can be found [here](https://reactrouter.com/en/main).
 
+<!-- think this is not needed / refactor needed / results != [] then load result component -->
+
 ### React Icons
 
 A great library for tons of icons that can easily be imported. Uses ES6 imports so you can import only the icons you need. Docs can be found [here](https://react-icons.github.io/react-icons/).
