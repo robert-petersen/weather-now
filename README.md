@@ -42,6 +42,8 @@ A react library that provides tools to easily animate vertical scrolling. Docs c
 
 ### Vite
 
+Vite is a development tool to scaffold and bundle projects.
+
 <!-- --------------------------------------------------------------------------------------------To help see sections----------------- -->
 <br />
 
