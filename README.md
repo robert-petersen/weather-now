@@ -42,7 +42,7 @@ A react library that provides tools to easily animate vertical scrolling. Docs c
 
 ### Vite
 
-Vite is a development tool to scaffold and bundle projects.
+Vite is a development tool to scaffold and bundle projects. Vite is extremely fast to bundle and allows for Hot Module Replacement (HMR), which keeps track of changes in your application without reloading the page and losing the applications state. Because of it's performance benefits I have moved away from create-react-app (CRA) to begin my projects. Check out Vite's website [here](https://vitejs.dev/).
 
 <!-- --------------------------------------------------------------------------------------------To help see sections----------------- -->
 <br />
