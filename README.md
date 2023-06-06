@@ -51,6 +51,8 @@ Vite is a development tool to scaffold and bundle projects. Vite is extremely fa
 
 ## Future Improvements
 
+Website will be deployed soon!
+
 <!-- --------------------------------------------------------------------------------------------To help see sections----------------- -->
 <br />
 
